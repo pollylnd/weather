@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&subset=cyrillic,cyrillic-ext,greek,latin-ext');
+
+body {
+  background-color: #000;
+}
+
+
+.title {
+  width: 100%;
+  height: 150px;
+  padding-top: 40px;
+}
+
+.gifGameOver {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  top: 0;
+}
+
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 55px;
+  color: red;
+  background-color: #000000;
+}
+
+p {
+  color: blue;
+  text-align: center;
+  font-family: 'Press Start 2P';
+}

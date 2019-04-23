@@ -1,0 +1,54 @@
+.man {
+  position: absolute;
+  top: 40%;
+  left: 3%;
+}
+
+.gifman {
+  width: 160px;
+}
+
+.hidden {
+  display: none;
+}
+
+.gifspeech {
+  background-image: url('https://media.giphy.com/media/l378dbem3hs95nYWc/giphy.gif');
+  width: 270px;
+  bottom: 70%;
+  left: 0%;
+  position: absolute;
+  height: 270px;
+  background-size: cover;
+}
+
+.gifspeech p {
+  top: 20%;
+  position: absolute;
+  left: 15%;
+  width: 210px;
+  height: 131px;
+  text-align: left;
+  font-size: 15px;
+  color: black;
+}
+
+@media screen and (max-width: 1300px) {
+  .man {
+    top: 60%;
+    left: 0%;
+  }
+  .gifman {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .man {
+    top: 65%;
+    left: -10%;
+  }
+  .gifman {
+    width: 40%;
+  }
+}
